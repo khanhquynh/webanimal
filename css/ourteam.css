@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10000;
+  float: right;
+  position: fixed;
+  bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+section button {
+
+  display: block;
+  background-color: transparent;
+  border: 0  transparent;
+  color: #2b2b2b;
+  font-weight: 720;
+  font-size: 14px;
+  -webkit-border-radius: 3px;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 9000;
+  float:right;
+  transform: rotate(-90deg);
+  margin: 0 24px 90px 0px;
+}
+
+
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 9000;
+}
+
+.overlay .close {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  overflow: hidden;
+  border: none;
+  background: url("../image/Group 53.png") no-repeat center center;
+  text-indent: 200%;
+  outline: none;
+  color: transparent;
+  z-index: 12;
+}
+
+
+.overlay-effect {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+  -moz-transition: opacity 0.5s, visibility 0s 0.5s;
+  transition: opacity 0.5s, visibility 0s 0.5s;
+  z-index: 9000;
+}
+.overlay-effect.open {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  z-index: 9000;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 290px;
+ 
+  margin-left: 8%;
+ 
+	position: relative;
+height: 440px;
+   /* Should be removed. Only for demonstration */
+} 
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;  
+  clear: both;
+}
+
+
+.row{
+	margin: 125px;
+}
+
+
+
+.column a{
+	text-align: center;
+	color:#fff;
+	margin-left: 37%;
+	font-size: 14px;
+	font-style: italic;
+	opacity: 1;
+	
+}
+.column a:hover{
+	opacity: 0.5;
+	transition-duration: 0.5s;
+}
+
+.column h4{
+
+	font-size: 14px;
+	color:#fff;
+	margin-top: 180px;
+	text-align: center;
+	
+
+}
+.information
+{
+	width: 290px;
+	height: 70px;
+	position: absolute;
+	font-size: 14px;
+	color: white;
+	margin-top: 370px;
+	background-color: black;
+	opacity: 0.5;
+	line-height: 10px;
+	padding-left: 10px;
+
+}
+.information:hover
+{
+	opacity: 1;
+}
+.column a:hover{
+	opacity: 0.5;
+	transition-duration: 0.5s;
+}
+
+.imgava
+{
+	width: 290px;
+	position: absolute;
+	height: 440px;
+}
+.clear
+{
+	clear: both;
+}
+
+.tiltle_ourteam {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  
+  left: 0%;
+  margin-left: 15%;
+  top: 80%;
+  	font-size: 100px;
+	font-style: italic;
+	font-weight: 800;
+	color: #2b2b2b;
+}

@@ -1,0 +1,373 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#overlay3 {
+  position: absolute;
+  display: none;
+  width: 100%;
+height: 200%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  z-index: 6;
+  cursor: pointer;
+	background-color: white;
+	
+}
+
+
+.articleinfor
+{
+	width: 60%;
+	height: auto;
+	
+	margin-left: 10%;
+	position: relative;
+	
+}
+
+.articleinfor h3
+{
+	font-size: 70px;
+	position: absolute;
+	margin-top: 20%;
+}
+.articleinfor img
+{
+	position: absolute;
+	transform: scale(1.8,1.8);
+	margin-left: 90%;
+	margin-top: 40%;
+}
+
+.infortext
+{
+	width: 90%;
+	height: auto;
+	margin-top: 55%;
+	
+	position: relative; 
+}
+.infortext p
+{
+	margin-left: 40%;
+	font-size: 15px;
+}
+
+.infortext h4
+{
+	margin-left: 40%;
+}
+.infortext img
+{
+	position: absolute;
+	transform: scale(0.8,0.8);
+	margin-top: -4%;
+	margin-left: 4%;
+	
+	
+}
+
+
+
+
+
+
+
+
+#overlay4 {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  z-index: 5;
+  cursor: pointer;
+	background-color: white;
+	
+}
+
+
+
+.articleinfor2
+{
+	width: 70%;
+	height: auto;
+	margin-top: 10%;
+	margin-left: 10%;
+	position: relative;
+	
+	
+}
+
+
+.articleinfor2 h3
+{
+	font-size: 70px;
+	position: absolute;
+	margin-top: 5%;
+}
+.articleinfor2 img
+{
+	position: absolute;
+	transform: scale(0.5,0.5);
+	
+	margin-left: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+#overlay5 {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  z-index: 4;
+  cursor: pointer;
+	background-color: white;
+	
+}
+
+
+.articleinfor3
+{
+	width: 75%;
+	height: auto;
+	
+	margin-left: 10%;
+	position: relative;
+	
+}
+
+.articleinfor3 h3
+{
+	font-size: 70px;
+	position: absolute;
+	margin-top: 20%;
+}
+.articleinfor3 img
+{
+	position: absolute;
+	transform: scale(1.8,1.8);
+	margin-left: 70%;
+	margin-top: 33%;
+}
+
+
+
+.infortext3
+{
+	width: 90%;
+	height: auto;
+	margin-top: 55%;
+	
+	position: relative; 
+}
+.infortext3 p
+{
+	margin-left: 40%;
+	font-size: 15px;
+}
+
+.infortext3 h4
+{
+	margin-left: 40%;
+}
+.infortext3 img
+{
+	position: absolute;
+	transform: scale(1.8,1.8);
+	margin-top: 6.5%;
+	margin-left: 13%;
+}
+
+
+
+
+
+
+#overlay6 {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  z-index: 3;
+  cursor: pointer;
+	background-color: white;
+	
+}
+
+
+.articleinfor4
+{
+	width: 75%;
+	height: auto;
+	
+	margin-left: 10%;
+	position: relative;
+	
+}
+
+.articleinfor4 h3
+{
+	font-size: 70px;
+	position: absolute;
+	margin-top: 13%;
+}
+.articleinfor4 img
+{
+	position: absolute;
+	transform: scale(1.8,1.8);
+	margin-left: 70%;
+	margin-top: 33%;
+}
+
+
+
+.infortext4
+{
+	width: 90%;
+	height: auto;
+	margin-top: 55%;
+	
+	position: relative; 
+}
+.infortext4 p
+{
+	margin-left: 40%;
+	font-size: 15px;
+}
+
+.infortext4 h4
+{
+	margin-left: 40%;
+}
+.infortext4 img
+{
+	position: absolute;
+	transform: scale(1.8,1.8);
+	margin-top: 7.5%;
+	margin-left: 13%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#overlay7 {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  z-index: 2;
+  cursor: pointer;
+	background-color: white;
+	
+}
+
+
+
+
+
+#overlay8 {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  z-index: 1;
+  cursor: pointer;
+	background-color: white;
+	
+}
+
+
+
+
+.articleinfor6
+{
+	width: 75%;
+	height: auto;
+	
+	margin-left: 10%;
+	position: relative;
+	
+}
+
+.articleinfor6 h3
+{
+	font-size: 50px;
+	position: absolute;
+	margin-top: 10%;
+}
+.articleinfor6 img
+{
+	position: absolute;
+	transform: scale(1.8,1.8);
+	margin-left: 70%;
+	margin-top: 33%;
+}
+
+.infortext6
+{
+	width: 40%;
+	height: auto;	
+	position: absolute; 
+	margin-top: 13%;
+	margin-left: 10%;
+}
+
+.infortext p
+{
+	
+	font-size: 15px;
+}

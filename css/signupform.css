@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.login {
+  width: 450px;
+  position: absolute;
+  top: 15%;
+  left: 58%;
+}
+
+.tiltle_login {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  
+  left: 0%;
+  margin: 0 0 0 50px;
+  top: 60%;
+  	font-size: 100px;
+	font-style: italic;
+	font-weight: 800;
+	color: #2b2b2b;
+}
+.signin_text {
+  width: 150px;
+  height: 20px;
+  position: absolute;
+  left: 47%;
+  margin: 0 0 0 -5%;
+  top: 75%;
+  	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	color: #2b2b2b;
+	opacity: 1;
+	
+}
+.signin_text a{
+	color: #2b2b2b;
+}
+.signin_text:hover{
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+
+input[type="text"] {
+  width: 450px;
+  padding: 20px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #2b2b2b;
+  outline: none;
+  color: #2b2b2b;
+  font-size: 20px;
+  font-family: 'Montserat',sans-serif;
+  font-weight: 800;
+}
+input[type="file"] {
+  width: 450px;
+  padding: 20px 0px 0 0;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: #2b2b2b;
+  font-size:12px;
+  font-family: 'Montserat',sans-serif;
+  font-weight: 800;
+}
+input[type=checkbox] {
+  display: none;
+}
+
+
+
+
+input[type="submit"] {
+  background: #2b2b2b;
+  border: 0;
+  width: 100px;
+  height: 40px;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+
+}
+input[type="submit"]:hover {
+  background: #2b2b2b;
+  animation-name: shake;
+
+}
+
+
+
+
+::-webkit-input-placeholder {
+  color: #2b2b2b;
+  font-size: 12px;
+}
+
+.animated {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  margin: 40px 0 0 350px;
+
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
